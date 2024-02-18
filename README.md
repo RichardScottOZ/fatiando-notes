@@ -11,3 +11,6 @@ Notes on using fatiando family libraries
 
 - Filter gotchas
     - harmonica returns positive y coords, so your maps will be flipped in that sense - np.flipud() type problem
+
+- Pseudogravity
+    - See initial work https://github.com/fatiando/harmonica/pull/299 
