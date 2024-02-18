@@ -13,6 +13,7 @@ Notes on using fatiando family libraries
     - harmonica returns positive y coords, so your maps will be flipped in that sense - np.flipud() type problem
 
 - Pseudogravity
+    - Notebooks : https://github.com/RichardScottOZ/PFToolbox - thanks to Lu
     - See initial work https://github.com/fatiando/harmonica/pull/299 
 
 - Examples
