@@ -17,3 +17,7 @@ Notes on using fatiando family libraries
 
 - Examples
 - https://github.com/fatiando/harmonica/pull/377    
+
+## Old Fatiando package
+- Notes on filters
+    - https://legacy.fatiando.org/api/gravmag.transform.html#fatiando.gravmag.transform.tilt
