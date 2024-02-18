@@ -14,3 +14,6 @@ Notes on using fatiando family libraries
 
 - Pseudogravity
     - See initial work https://github.com/fatiando/harmonica/pull/299 
+
+- Examples
+- https://github.com/fatiando/harmonica/pull/377    
