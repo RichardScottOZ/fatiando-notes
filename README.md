@@ -11,6 +11,9 @@ Notes on using fatiando family libraries
 
 - Filter gotchas
     - harmonica returns positive y coords, so your maps will be flipped in that sense - np.flipud() type problem
+    - or  grid = grid.assign_coords(y = grid.y.data[::-1]) thanks to mg
+    - or da = xr.tutorial.open_dataset('air_temperature') https://stackoverflow.com/questions/54677161/xarray-reverse-an-array-along-one-coordinate
+        - da.isel(lat=slice(None, None, -1))
 
 - Pseudogravity
     - Notebooks : https://github.com/RichardScottOZ/PFToolbox - thanks to Lu
@@ -18,6 +21,8 @@ Notes on using fatiando family libraries
 
 - Examples
 - https://github.com/fatiando/harmonica/pull/377    
+
+
 
 ## Old Fatiando package
 - Notes on filters
